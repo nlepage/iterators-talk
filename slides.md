@@ -107,7 +107,7 @@ console.log(result);
 ```js {monaco-run} { autorun: false }
 const iter = Iterator.from([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]);
 
-const result = iter
+iter
     .map((n) => debug('map1', n * 2))
     .take(4)
     .map((n) => debug('map2', n * 3))
