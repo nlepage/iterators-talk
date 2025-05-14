@@ -6,6 +6,7 @@ info: |
 
   [Sources](https://github.com/nlepage/iterators-talk)
 routerMode: hash
+lineNumbers: true
 
 class: text-center
 ---
@@ -14,7 +15,7 @@ class: text-center
 
 ---
 
-```ts {*}{lines:true}
+```ts
 interface Iterator<T> {
     next(): Result<T>
 }
@@ -40,7 +41,7 @@ console.log(iter.next());
 
 ---
 
-```js {*}{lines:true}
+```js {*} twoslash
 const arr = ['Astérix', 'Obélix', 'Pix'];
 
 for (const value of arr) {
@@ -65,7 +66,7 @@ console.log(iter.next());
 
 ---
 
-```js {all|6,9,10,16,17|3,4,7,12,14,19}{lines:true} twoslash
+```js {all|6,9,10,16,17|3,4,7,12,14,19} twoslash
 const iter = Iterator.from([0, 1, 2, 3, 4, 5, 6, 7, 8, 9]);
 
 iter.every((n) => n > 0);
