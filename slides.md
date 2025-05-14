@@ -1,9 +1,13 @@
 ---
 theme: seriph
 title: Les itérateurs (en JS)
+info: |
+  ## Les Itérateurs (en JS)
+
+  [Sources](https://github.com/nlepage/iterators-talk)
+routerMode: hash
 
 class: text-center
-transition: slide-left
 ---
 
 # Les itérateurs (en JS)
